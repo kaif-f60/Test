@@ -187,7 +187,7 @@
 
 const para1 = "This is first paragraph and";
 
-if (para1.includes('not')) {
+if (para1.includes('is')) {
     console.log(true);
 } else {
     console.log(false);
@@ -204,14 +204,6 @@ function testinng(){
     }
     
 }
-
-if (testinng().includes(para1)){
-    console.log('ha mere paas hai');
-} else {
-    console.log('nhi main nhi rakhat')
-}
-
-
 
 
    
