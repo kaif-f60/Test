@@ -1,4 +1,3 @@
-// const mbmenu = doocument.getElementById()
 
 // const bike={
 //     type: "Bike",
@@ -18,7 +17,7 @@
 // const date = new Date();
 // console.log(date);
 //  let a=[ 1,2,3,4,5,6,7 ];
-// //  console.log(a[5]); // it will show error because the array
+//  console.log(a[5]); // it will show error because the array
 // function printarray() {
 //     document.getElementsByClassName("test").innerHTML = a[0];
 // }
@@ -64,7 +63,7 @@
 //         Roundbars: 10,
 //         Pipe:1,
 //         Sheet:2,
-//         Coil:6,
+//         Coil:6,  
 //     }
 // }
 
@@ -95,7 +94,7 @@
 // const new1= ['potato', 78, 'apple', 67, 'watermelon', 450, 'banana', 897];
 // const new2= ['red', 561, 'yellow', 56, 'green', 450, 'black', 897];
 // function foo(){
-//     document.getElementById('four').innerHTML=new1.indexOf[450];
+//     document.getElementById('four').innerHTML = new1.indexOf[450];
 //     let hhji = new1.indexOf[450];
 //     console.log(hhji)  
 // }   
@@ -156,11 +155,6 @@
 //     newElement.style.transition = "all 0.3s ease";  // Adding smooth transition
 // });
 
-
-  
-
-
-
 // function chocolate (a,b) {
 //    return a+b ;
 // };
@@ -174,7 +168,7 @@
 
 
 // let rraay = vanilla(9,9, 8, chocolate)
-// console.log(rraay);
+// console.log(vanilla);
 
 
 
@@ -185,28 +179,25 @@
 //     console.log("The paragraph contains the word 'first'");
 // }
 
-const para1 = "This is first paragraph and";
+// const para1 = "This is first paragraph and";
 
-if (para1.includes('is')) {
-    console.log(true);
-} else {
-    console.log(false);
-}
+// if (para1.includes('is')) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
 
 
-function testinng(){
-    const para1 = "This is first paragraph and";
+// function testinng(){
+//     const para1 = "This is first paragraph and";
 
-    if (para1.includes('not')) {
-        console.log(true);
-    } else {
-        console.log(false);
-    }
+//     if (para1.includes('op')) {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     }
     
-}
+// }
 
-
-   
-
-
-           
+let iou =" this is teztin"
+console.log(iou)

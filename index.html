@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../../assets/vendor/aos/dist/aos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
     
    <script src="main.js"> </script>
-    <!-- <script src="../../assets/vendor/aos/dist/aos.js"></script> -->
 
 <title>Document</title>
 </head>
@@ -37,7 +35,8 @@
 <div data-aos="zoom-in-down" class="container ">
 <h1  class="animate__animated animate__flash">Sundha Creation</h1>
 <p id="new">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus perferendis esse unde similique veniam eveniet aperiam, reiciendis quis placeat vero dolorum cumque aut praesentium, distinctio incidunt at ipsam dolores excepturi.</p>
-<button id="test" >Click Me</button>
+<button onclick="shdsdow()" >Click Me</button>
+<span id="demo"></span>
 
 </div>
 <!-- <P id="new"></P> -->
@@ -64,15 +63,19 @@
 </div>
 </div>
 </section>
-<!-- <script>
-  $(document).on('ready', function () {
-    // initialization of aos
-    AOS.init({
-      duration: 650,
-      once: true
-    });
-  });
-</script> -->
+<h1>JavaScript Functions</h1>
+
+<p>Accessing a function without () returns the function and not the function result:</p>
+<p id="demo"></p>
+
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius;
+document.getElementById("demo").innerHTML = value;
+</script>
 <!--
     <script>     
     // let a = 67;
@@ -113,7 +116,9 @@ btn.addEventListener('click', function ggg() {
 });
 </script>
 -->
+
+
 </body>
 
 
-</html>
+</html> 
